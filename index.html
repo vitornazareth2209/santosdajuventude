@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Santos da Juventude</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background-color: #005aa7;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #004080;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .santo {
+      margin-bottom: 30px;
+    }
+    .santo img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #aaa;
+      border-radius: 5px;
+    }
+    form button {
+      padding: 10px 20px;
+      background-color: #005aa7;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Santos da Juventude</h1>
+  <p>"Verso l’alto!" – Pier Giorgio Frassati</p>
+</header>
+
+<nav>
+  <a href="#inicio">Início</a>
+  <a href="#santos">Santos</a>
+  <a href="#oracoes">Orações</a>
+  <a href="#fotos">Fotos</a>
+  <a href="#pedido">Pedido de Oração</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<section id="inicio">
+  <h2>Bem-vindo!</h2>
+  <p>Este site é dedicado à vida e espiritualidade de santos que marcaram a juventude, como Pier Giorgio Frassati, Dom Bosco, Santa Teresinha, Carlo Acutis e muitos outros. Aqui você encontrará orações, biografias, fotos e um espaço para partilhar sua fé.</p>
+</section>
+
+<section id="santos">
+  <h2>Santos em Destaque</h2>
+
+  <div class="santo">
+    <h3>Pier Giorgio Frassati</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Pier_Giorgio_Frassati_2.jpg" alt="Pier Giorgio Frassati">
+    <p>Jovem italiano, estudante, montanhista e amante da Eucaristia e dos pobres. Conhecido por sua alegria e pelo lema: <strong>"Para o alto!"</strong></p>
+  </div>
+
+  <div class="santo">
+    <h3>Carlo Acutis</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Carlo_Acutis.jpg" alt="Carlo Acutis">
+    <p>Beato da era digital. Criou um site para catalogar milagres eucarísticos. Faleceu aos 15 anos com fama de santidade.</p>
+  </div>
+</section>
+
+<section id="oracoes">
+  <h2>Orações</h2>
+  <p><strong>Oração a Pier Giorgio Frassati:</strong></p>
+  <p>"Ó Pai, que deste a Pier Giorgio Frassati o entusiasmo da juventude, o amor pelos pobres e a paixão pela verdade, faze que, por sua intercessão, também nós vivamos com coragem cristã. Por Cristo nosso Senhor. Amém."</p>
+</section>
+
+<section id="fotos">
+  <h2>Galeria de Fotos</h2>
+  <p>Em breve aqui estarão imagens devocionais dos santos.</p>
+</section>
+
+<section id="pedido">
+  <h2>Pedidos de Oração</h2>
+  <form action="mailto:seuemail@exemplo.com" method="POST" enctype="text/plain">
+    <input type="text" name="nome" placeholder="Seu nome" required>
+    <input type="email" name="email" placeholder="Seu e-mail" required>
+    <textarea name="mensagem" rows="5" placeholder="Escreva seu pedido de oração aqui..." required></textarea>
+    <button type="submit">Enviar pedido</button>
+  </form>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <p>Você pode entrar em contato comigo pelo e-mail: <strong>vitor.nazareth@exemplo.com</strong></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Santos da Juventude. Desenvolvido por Vitor Nazareth.</p>
+</footer>
+
+</body>
+</html>
